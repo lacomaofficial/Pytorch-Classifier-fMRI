@@ -1,4 +1,4 @@
-# Functional Connectivity Template Classifier
+# Functional Connectivity Classifier
 
 This project aims to classify subjects based on functional connectivity derived from fMRI data using a deep learning approach. Specifically, the project explores the classification of subjects into different gender (male vs. female) by analyzing fMRI data during movie watching. The project leverages functional connectivity matrices extracted from fMRI data as input features for a neural network classifier.
 
