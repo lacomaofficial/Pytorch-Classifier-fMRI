@@ -1,12 +1,8 @@
 # Functional Connectivity Classifier 
 
-This project aims to classify subjects based on functional connectivity derived from fMRI data using a deep learning approach. Specifically, the project explores the classification of subjects into different gender (male vs. female) by analyzing fMRI data during movie watching. The project leverages functional connectivity matrices extracted from fMRI data as input features for a neural network classifier.
+This project aims to classify subjects based on functional connectivity derived from fMRI data using a deep learning approach. Specifically, the project explores the classification of subjects into different gender (male vs. female) by analyzing fMRI data during movie watching. The project leverages functional connectivity matrices extracted from fMRI data as input features for a neural network classifier. The experiment uses the Developmental fMRI Dataset, which consists of fMRI scans of children (ages 3-13) and young adults (ages 18-39) while they watched movies. This dataset is ideal for demonstrating how machine learning models can be trained to classify participants based on brain connectivity patterns.
 
-## Project Overview
-
-The experiment uses the Developmental fMRI Dataset, which consists of fMRI scans of children (ages 3-13) and young adults (ages 18-39) while they watched movies. This dataset is ideal for demonstrating how machine learning models can be trained to classify participants based on brain connectivity patterns.
-
----
+## Results
 
 ### 1. **Superior Temporal Sulcus with Angular Gyrus – Superior Parietal Lobule Anterior**
    **Importance: 0.005392**
@@ -80,8 +76,8 @@ The experiment uses the Developmental fMRI Dataset, which consists of fMRI scans
 
 
 
----
-## Key Steps in the Experiment:
+
+## Experimental Setup
 
 1. **Data Loading and Preprocessing**:
    - The fMRI data is downloaded from the Nilearn library, which fetches the Developmental fMRI dataset.
@@ -104,23 +100,14 @@ The experiment uses the Developmental fMRI Dataset, which consists of fMRI scans
 6. **Feature Importance Analysis**:
    - The importance of different brain regions (features) is analyzed by perturbing each feature and measuring its impact on the model's loss. This analysis helps identify which brain regions are most critical in differentiating between classes.
 
-## Summary of Findings:
-- **Social Cognition and Spatial Awareness**: The connection between the **Superior Temporal Sulcus** and **Superior Parietal Lobule** highlights possible differences in how males and females process **social cues** and **spatial information**.
-- **Visuospatial and Motor Processing**: Connections involving the **Superior Parietal Lobule**, **Intraparietal Sulcus**, and **Cerebellum** suggest gender-specific strategies for **spatial attention**, **movement coordination**, and **motor planning**.
-- **Emotion and Movement Integration**: The **insula** and **precentral gyrus** connection indicates that gender differences in **emotional regulation** might influence **motor activity**, reflecting varying emotional responses to the film's content.
-- **Visual Attention and Recognition**: The connection between the **right IPS** and **Lingual Gyrus** hints at gender-specific differences in **visual attention** and **high-level visual processing**, particularly in how visual details are interpreted and acted upon.
 
 ## Requirements
 
 - Python 3.x
 - Libraries: `nilearn`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `torch`, `optuna`, `scikit-learn`
 
-## How to Run
-
-1. Clone the repository.
-2. Install the required packages using `pip install -r requirements.txt`.
-3. Run the script `main.py` to execute the data processing, model training, and evaluation steps.
-
-## Conclusion
-
-This project demonstrates how deep learning can be applied to neuroimaging data for classifying subjects based on functional connectivity patterns. The insights gained from feature importance analysis contribute to our understanding of how different brain regions are involved in these classifications.
+## Summary:
+- **Social Cognition and Spatial Awareness**: The connection between the **Superior Temporal Sulcus** and **Superior Parietal Lobule** highlights possible differences in how males and females process **social cues** and **spatial information**.
+- **Visuospatial and Motor Processing**: Connections involving the **Superior Parietal Lobule**, **Intraparietal Sulcus**, and **Cerebellum** suggest gender-specific strategies for **spatial attention**, **movement coordination**, and **motor planning**.
+- **Emotion and Movement Integration**: The **insula** and **precentral gyrus** connection indicates that gender differences in **emotional regulation** might influence **motor activity**, reflecting varying emotional responses to the film's content.
+- **Visual Attention and Recognition**: The connection between the **right IPS** and **Lingual Gyrus** hints at gender-specific differences in **visual attention** and **high-level visual processing**, particularly in how visual details are interpreted and acted upon.
