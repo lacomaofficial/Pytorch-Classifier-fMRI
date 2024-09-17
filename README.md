@@ -78,14 +78,10 @@ The experiment uses the Developmental fMRI Dataset, which consists of fMRI scans
 
 ![image](https://github.com/user-attachments/assets/8afde7d4-9ef1-4476-94f3-6d899ea8d302)
 
-### Summary of Functions:
-- **Social Cognition and Spatial Awareness**: The connection between the **Superior Temporal Sulcus** and **Superior Parietal Lobule** highlights possible differences in how males and females process **social cues** and **spatial information**.
-- **Visuospatial and Motor Processing**: Connections involving the **Superior Parietal Lobule**, **Intraparietal Sulcus**, and **Cerebellum** suggest gender-specific strategies for **spatial attention**, **movement coordination**, and **motor planning**.
-- **Emotion and Movement Integration**: The **insula** and **precentral gyrus** connection indicates that gender differences in **emotional regulation** might influence **motor activity**, reflecting varying emotional responses to the film's content.
-- **Visual Attention and Recognition**: The connection between the **right IPS** and **Lingual Gyrus** hints at gender-specific differences in **visual attention** and **high-level visual processing**, particularly in how visual details are interpreted and acted upon.
+
 
 ---
-### Key Steps in the Experiment:
+## Key Steps in the Experiment:
 
 1. **Data Loading and Preprocessing**:
    - The fMRI data is downloaded from the Nilearn library, which fetches the Developmental fMRI dataset.
@@ -108,16 +104,11 @@ The experiment uses the Developmental fMRI Dataset, which consists of fMRI scans
 6. **Feature Importance Analysis**:
    - The importance of different brain regions (features) is analyzed by perturbing each feature and measuring its impact on the model's loss. This analysis helps identify which brain regions are most critical in differentiating between classes.
 
-### Key Findings:
-
-- **Functional Connectivity Differences**: 
-  - The results indicate that specific brain regions and their connections play a significant role in distinguishing between different classes, such as children vs. adults or males vs. females. 
-  - For instance, connections involving the **Superior Frontal Gyrus** and **Superior Temporal Sulcus** were found to be among the top features influencing the classification.
-
-- **Neuroscience Insights**:
-  - The study highlights the utility of functional connectivity as a biomarker for age and gender classification. 
-  - The **Superior Frontal Gyrus** is associated with higher cognitive functions, including working memory and decision-making, which might explain its role in differentiating age groups.
-  - The **Superior Temporal Sulcus** is involved in social cognition, such as understanding others' intentions, which might contribute to gender-specific connectivity patterns.
+## Summary of Findings:
+- **Social Cognition and Spatial Awareness**: The connection between the **Superior Temporal Sulcus** and **Superior Parietal Lobule** highlights possible differences in how males and females process **social cues** and **spatial information**.
+- **Visuospatial and Motor Processing**: Connections involving the **Superior Parietal Lobule**, **Intraparietal Sulcus**, and **Cerebellum** suggest gender-specific strategies for **spatial attention**, **movement coordination**, and **motor planning**.
+- **Emotion and Movement Integration**: The **insula** and **precentral gyrus** connection indicates that gender differences in **emotional regulation** might influence **motor activity**, reflecting varying emotional responses to the film's content.
+- **Visual Attention and Recognition**: The connection between the **right IPS** and **Lingual Gyrus** hints at gender-specific differences in **visual attention** and **high-level visual processing**, particularly in how visual details are interpreted and acted upon.
 
 ## Requirements
 
