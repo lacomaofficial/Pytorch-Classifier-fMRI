@@ -6,29 +6,84 @@ This project aims to classify subjects based on functional connectivity derived 
 
 The experiment uses the Developmental fMRI Dataset, which consists of fMRI scans of children (ages 3-13) and young adults (ages 18-39) while they watched movies. This dataset is ideal for demonstrating how machine learning models can be trained to classify participants based on brain connectivity patterns.
 
-## Results
 
-**1. Superior Frontal Gyrus Medial - Caudate**
-   - **Roles**: Decision-making, reward processing.
-   - **Significance**: Correlation differences may explain how males and females handle emotions and make decisions differently.
+### 1. **Superior Temporal Sulcus with Angular Gyrus – Superior Parietal Lobule Anterior**
+   **Importance: 0.005392**
+   
+   - **Superior Temporal Sulcus (STS) with Angular Gyrus**: 
+     - **STS** is a key region for **social cognition**, including interpreting **body language**, **facial expressions**, and **theory of mind** (understanding others' mental states). It also plays a role in **language comprehension**.
+     - The **Angular Gyrus** integrates different types of sensory information, including **visual, auditory, and spatial information**, and is linked to **language processing** and **social cognition**.
+   
+   - **Superior Parietal Lobule (Anterior)**:
+     - This region is involved in **spatial attention** and **sensory integration**. It helps in **coordinating movements** and understanding the position of one's body in space, important for motor control and planning.
 
-**2. Superior Temporal Sulcus - Angular Gyrus**
-   - **Roles**: Social cognition, language processing.
-   - **Significance**: Variations might reflect how males and females perceive social cues and process language.
+   **Function of the Connection**: 
+   This connection between the **STS/Angular Gyrus** and the **Superior Parietal Lobule Anterior** could reflect the brain's integration of **social information with spatial awareness**. During the film, this connection might allow individuals to integrate **social cues** (from observing characters) with an understanding of **spatial relationships** in the scene, indicating possible differences in how males and females interpret these aspects during the film.
 
-**3. Inferior Occipital Gyrus - Superior Parietal Lobule**
-   - **Roles**: Visual processing, spatial awareness.
-   - **Significance**: Differences may affect visual-spatial abilities, showing how males and females handle visual information.
+---
 
-**4. Superior Parietal Lobule Anterior - Parieto-Occipital Sulcus**
-   - **Roles**: Spatial orientation, visual processing.
-   - **Significance**: Disparities could reveal gender differences in spatial skills and visual attention.
+### 2. **Superior Parietal Lobule Posterior – Intraparietal Sulcus (Left Hemisphere)**
+   **Importance: 0.005281**
 
-**5. Superior Frontal Gyrus Medial - Dorsomedial Prefrontal Cortex**
-   - **Roles**: Social cognition, self-referential thought.
-   - **Significance**: Variations might indicate differences in self-reflection and understanding others’ perspectives between genders.
+   - **Superior Parietal Lobule (Posterior)**: 
+     - The posterior part of the **Superior Parietal Lobule** is heavily involved in **visuospatial processing**, including the integration of sensory inputs for **object manipulation** and **attention to objects in space**.
+   
+   - **Intraparietal Sulcus (Left Hemisphere)**: 
+     - The **Intraparietal Sulcus (IPS)** helps coordinate **eye movements**, **spatial attention**, and **hand-eye coordination**. It is critical in **processing numerical and spatial information** and plays a role in understanding quantities and relationships in space.
 
-![image](https://github.com/user-attachments/assets/63b349a3-07d3-479d-b3e2-2ed2e542225a)
+   **Function of the Connection**: 
+   The **Superior Parietal Lobule Posterior** and **Left IPS** connection suggests gender differences in **visuospatial processing** and **attention to objects in space**. These regions work together to allow individuals to allocate **visual attention** and **coordinate actions** in space, possibly suggesting that males and females use different strategies for interpreting spatial scenes or navigating the visual environment during the film.
+
+---
+
+### 3. **Cerebellum I-V – Precentral Gyrus Medial**
+   **Importance: 0.005185**
+
+   - **Cerebellum (Lobules I-V)**: 
+     - These lobules of the cerebellum are involved in **fine motor control**, **balance**, and the timing of **voluntary movements**. The cerebellum also contributes to **cognitive functions**, including **timing and coordination** of cognitive processes.
+   
+   - **Precentral Gyrus (Medial)**: 
+     - This region is part of the **primary motor cortex**, specifically controlling the movement of the trunk and limbs. It's essential for **initiating voluntary movements**.
+
+   **Function of the Connection**: 
+   This connection likely reflects gender differences in **motor planning** and **bodily coordination**. The **Cerebellum** and **Precentral Gyrus** are both involved in coordinating **movement and motor control**, so this connection might indicate that males and females process **motor responses** differently when reacting to film scenes, such as preparing for action or responding to physical stimuli.
+
+---
+
+### 4. **Insula Antero-Superior – Precentral Gyrus Medial**
+   **Importance: 0.005047**
+
+   - **Insula (Antero-Superior)**: 
+     - The anterior insula is crucial for **emotional processing**, **interoception** (the perception of internal bodily states), and **awareness of emotions** like pain or disgust. It is also linked to **empathy** and the **subjective experience of emotions**.
+   
+   - **Precentral Gyrus (Medial)**: 
+     - As part of the **primary motor cortex**, this region is responsible for initiating movements in the body's midline (such as the trunk or upper body).
+
+   **Function of the Connection**: 
+   This connection between the **insula** and the **precentral gyrus** may point to **gender-specific differences** in how emotions influence **motor responses**. For example, females might have stronger integration of emotional states (insula) with physical expressions (precentral gyrus), leading to more pronounced emotional reactions in their motor responses, while males might show different patterns of emotional regulation and expression.
+
+---
+
+### 5. **Intraparietal Sulcus (Right Hemisphere) – Lingual Gyrus**
+   **Importance: 0.004649**
+
+   - **Intraparietal Sulcus (IPS, Right Hemisphere)**: 
+     - The right IPS is involved in **spatial attention** and **visual processing**, particularly in **3D perception** and the manipulation of objects in space. It plays a role in **tracking objects** and **coordinating eye movements**.
+   
+   - **Lingual Gyrus**: 
+     - This region is part of the **visual cortex** and is responsible for **processing visual information**, particularly **high-level visual processing** such as recognizing **letters, words, shapes, and colors**.
+
+   **Function of the Connection**: 
+   This connection suggests that males and females might differ in how they **process visual stimuli** in terms of **attention** and **object recognition**. The **right IPS** and **Lingual Gyrus** working together help with **tracking visual information**, interpreting shapes, and coordinating visual attention, so the differences in this connection could reflect how each gender processes complex visual information differently during the film, potentially affecting how visual scenes are perceived.
+
+![image](https://github.com/user-attachments/assets/8afde7d4-9ef1-4476-94f3-6d899ea8d302)
+
+### Summary of Functions:
+- **Social Cognition and Spatial Awareness**: The connection between the **Superior Temporal Sulcus** and **Superior Parietal Lobule** highlights possible differences in how males and females process **social cues** and **spatial information**.
+- **Visuospatial and Motor Processing**: Connections involving the **Superior Parietal Lobule**, **Intraparietal Sulcus**, and **Cerebellum** suggest gender-specific strategies for **spatial attention**, **movement coordination**, and **motor planning**.
+- **Emotion and Movement Integration**: The **insula** and **precentral gyrus** connection indicates that gender differences in **emotional regulation** might influence **motor activity**, reflecting varying emotional responses to the film's content.
+- **Visual Attention and Recognition**: The connection between the **right IPS** and **Lingual Gyrus** hints at gender-specific differences in **visual attention** and **high-level visual processing**, particularly in how visual details are interpreted and acted upon.
+
 
 ### Key Steps in the Experiment:
 
