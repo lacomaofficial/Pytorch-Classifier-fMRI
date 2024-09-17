@@ -4,9 +4,8 @@ This project aims to classify subjects based on functional connectivity derived 
 
 ## Results
 
-### 1. **Superior Temporal Sulcus with Angular Gyrus – Superior Parietal Lobule Anterior**
-   **Importance: 0.005392**
-   
+### 1. **Superior Temporal Sulcus with Angular Gyrus – Superior Parietal Lobule Anterior** (Importance: 0.005392)
+
    - **Superior Temporal Sulcus (STS) with Angular Gyrus**: 
      - **STS** is a key region for **social cognition**, including interpreting **body language**, **facial expressions**, and **theory of mind** (understanding others' mental states). It also plays a role in **language comprehension**.
      - The **Angular Gyrus** integrates different types of sensory information, including **visual, auditory, and spatial information**, and is linked to **language processing** and **social cognition**.
@@ -19,8 +18,8 @@ This project aims to classify subjects based on functional connectivity derived 
 
 
 
-### 2. **Superior Parietal Lobule Posterior – Intraparietal Sulcus (Left Hemisphere)**
-   **Importance: 0.005281**
+### 2. **Superior Parietal Lobule Posterior – Intraparietal Sulcus (Left Hemisphere)** (Importance: 0.005281)
+
 
    - **Superior Parietal Lobule (Posterior)**: 
      - The posterior part of the **Superior Parietal Lobule** is heavily involved in **visuospatial processing**, including the integration of sensory inputs for **object manipulation** and **attention to objects in space**.
@@ -33,8 +32,7 @@ This project aims to classify subjects based on functional connectivity derived 
 
 
 
-### 3. **Cerebellum I-V – Precentral Gyrus Medial**
-   **Importance: 0.005185**
+### 3. **Cerebellum I-V – Precentral Gyrus Medial** (Importance: 0.005185)
 
    - **Cerebellum (Lobules I-V)**: 
      - These lobules of the cerebellum are involved in **fine motor control**, **balance**, and the timing of **voluntary movements**. The cerebellum also contributes to **cognitive functions**, including **timing and coordination** of cognitive processes.
@@ -47,8 +45,8 @@ This project aims to classify subjects based on functional connectivity derived 
 
 
 
-### 4. **Insula Antero-Superior – Precentral Gyrus Medial**
-   **Importance: 0.005047**
+### 4. **Insula Antero-Superior – Precentral Gyrus Medial** (Importance: 0.005047)
+
 
    - **Insula (Antero-Superior)**: 
      - The anterior insula is crucial for **emotional processing**, **interoception** (the perception of internal bodily states), and **awareness of emotions** like pain or disgust. It is also linked to **empathy** and the **subjective experience of emotions**.
@@ -60,8 +58,8 @@ This project aims to classify subjects based on functional connectivity derived 
    This connection between the **insula** and the **precentral gyrus** may point to **gender-specific differences** in how emotions influence **motor responses**. For example, females might have stronger integration of emotional states (insula) with physical expressions (precentral gyrus), leading to more pronounced emotional reactions in their motor responses, while males might show different patterns of emotional regulation and expression.
 
 
-### 5. **Intraparietal Sulcus (Right Hemisphere) – Lingual Gyrus**
-   **Importance: 0.004649**
+### 5. **Intraparietal Sulcus (Right Hemisphere) – Lingual Gyrus** (Importance: 0.004649)
+   
 
    - **Intraparietal Sulcus (IPS, Right Hemisphere)**: 
      - The right IPS is involved in **spatial attention** and **visual processing**, particularly in **3D perception** and the manipulation of objects in space. It plays a role in **tracking objects** and **coordinating eye movements**.
