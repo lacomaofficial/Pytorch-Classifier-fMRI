@@ -4,32 +4,32 @@ This project aims to classify subjects based on functional connectivity derived 
 
 ## Results
 
-### 1. **Superior Temporal Sulcus with Angular Gyrus – Superior Parietal Lobule Anterior** (Importance: 0.005392)
+### 1. **Superior Temporal Sulcus with Angular Gyrus – Superior Parietal Lobule Anterior** 
 
- This connection between the **STS/Angular Gyrus** and the **Superior Parietal Lobule Anterior** could reflect the brain's integration of **social information with spatial awareness**. During the film, this connection might allow individuals to integrate **social cues** (from observing characters) with an understanding of **spatial relationships** in the scene, indicating possible differences in how males and females interpret these aspects during the film.
+This connection between the **STS/Angular Gyrus** and the **Superior Parietal Lobule Anterior** could reflect the brain's integration of **social information with spatial awareness**. During the film, this connection might allow individuals to integrate **social cues** (from observing characters) with an understanding of **spatial relationships** in the scene, indicating possible differences in how males and females interpret these aspects during the film.
 
 
 
-### 2. **Superior Parietal Lobule Posterior – Intraparietal Sulcus (Left Hemisphere)** (Importance: 0.005281)
+### 2. **Superior Parietal Lobule Posterior – Intraparietal Sulcus (Left Hemisphere)**
 
 The **Superior Parietal Lobule Posterior** and **Left IPS** connection suggests gender differences in **visuospatial processing** and **attention to objects in space**. These regions work together to allow individuals to allocate **visual attention** and **coordinate actions** in space, possibly suggesting that males and females use different strategies for interpreting spatial scenes or navigating the visual environment during the film.
 
 
 
-### 3. **Cerebellum I-V – Precentral Gyrus Medial** (Importance: 0.005185)
+### 3. **Cerebellum I-V – Precentral Gyrus Medial**
 
- This connection likely reflects gender differences in **motor planning** and **bodily coordination**. The **Cerebellum** and **Precentral Gyrus** are both involved in coordinating **movement and motor control**, so this connection might indicate that males and females process **motor responses** differently when reacting to film scenes, such as preparing for action or responding to physical stimuli.
+This connection likely reflects gender differences in **motor planning** and **bodily coordination**. The **Cerebellum** and **Precentral Gyrus** are both involved in coordinating **movement and motor control**, so this connection might indicate that males and females process **motor responses** differently when reacting to film scenes, such as preparing for action or responding to physical stimuli.
 
 
 
-### 4. **Insula Antero-Superior – Precentral Gyrus Medial** (Importance: 0.005047)
+### 4. **Insula Antero-Superior – Precentral Gyrus Medial** 
 
 This connection between the **insula** and the **precentral gyrus** may point to **gender-specific differences** in how emotions influence **motor responses**. For example, females might have stronger integration of emotional states (insula) with physical expressions (precentral gyrus), leading to more pronounced emotional reactions in their motor responses, while males might show different patterns of emotional regulation and expression.
 
 
-### 5. **Intraparietal Sulcus (Right Hemisphere) – Lingual Gyrus** (Importance: 0.004649)
+### 5. **Intraparietal Sulcus (Right Hemisphere) – Lingual Gyrus**
    
- This connection suggests that males and females might differ in how they **process visual stimuli** in terms of **attention** and **object recognition**. The **right IPS** and **Lingual Gyrus** working together help with **tracking visual information**, interpreting shapes, and coordinating visual attention, so the differences in this connection could reflect how each gender processes complex visual information differently during the film, potentially affecting how visual scenes are perceived.
+This connection suggests that males and females might differ in how they **process visual stimuli** in terms of **attention** and **object recognition**. The **right IPS** and **Lingual Gyrus** working together help with **tracking visual information**, interpreting shapes, and coordinating visual attention, so the differences in this connection could reflect how each gender processes complex visual information differently during the film, potentially affecting how visual scenes are perceived.
 
 ![image](https://github.com/user-attachments/assets/8afde7d4-9ef1-4476-94f3-6d899ea8d302)
 
